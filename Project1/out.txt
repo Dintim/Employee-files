@@ -1,0 +1,4 @@
+Asan Esenov 30 30000 Almaty
+Ivan Ivanov 45 29000 Astana
+Dinara Mykasheva 35 30000 Taldykorgan
+Timur Kadyrbayev 47 25000 Almaty
