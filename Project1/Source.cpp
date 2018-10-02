@@ -2,21 +2,10 @@
 #include "Employee.h"
 #include "Functions.h"
 
-fstream in_file("in.txt", ios::in);
-
-
-void rewrite(Employee* es, int n) {
-	in_file.close();
-	in_file.open("in.txt", ios::out);
-	in_file << n << endl;
-	for (int i = 0; i < n; i++) {
-		in_file << es[i].name << " " << es[i].sname << " " << es[i].age << " " << es[i].salary << " " << es[i].adress << endl;
-	}
-}
-
 
 int main()
-{
+{	
+
 	int n;	
 	Employee* es;
 
